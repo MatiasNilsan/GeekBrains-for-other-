@@ -1,0 +1,42 @@
+body {
+    margin: 0 auto;
+}
+
+.container {
+    position: relative;
+    color: #fff;
+    display: flex;
+}
+
+.header-nav {
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+}
+
+.header-nav__item-link {
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.video {
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+.text {
+    align-self: center;
+    margin: 0 250px;
+    position: absolute;
+    width: 60%;
+}
+
+
+
